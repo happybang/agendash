@@ -46,7 +46,8 @@
               <thead>
                 <tr>
                   <th>Status</th>
-                  <th>Name</th>
+                  <th>Task Name</th>
+                  <th>Job Name</th>
                   <th>Last run started</th>
                   <th>Next run starts</th>
                   <th>Last finished</th>
@@ -125,6 +126,9 @@
         <% if (running) { %><span class="label label-warning">Running</span><% } %>
         <% if (completed) { %><span class="label label-success">Completed</span><% } %>
         <% if (failed) { %><span class="label label-danger">Failed</span><% } %>
+      </td>
+      <td>
+        <%- job.data.taskname %>
       </td>
       <td>
         <%- job.name %>
