@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const http = require('http');
-const Agenda = require('agenda');
+const Agenda = require('gogocan-agenda');
 const express = require('express');
 const program = require('commander');
 

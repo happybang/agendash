@@ -11,7 +11,7 @@ Then use it as follows:
 'use strict';
 
 const Hapi = require('hapi');
-const Agenda = require('agenda');
+const Agenda = require('gogocan-agenda');
 const Agendash = require('agendash');
 
 var agenda = new Agenda({
